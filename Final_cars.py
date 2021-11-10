@@ -22,7 +22,7 @@ def format_car(car):
 #Analyzes the data, looking for maximums.
 #Returns a list of lines that summerize the information.
 def process_data(data):
-    local.setlocale(locale.LC_ALL, 'en_US.UTF8')
+    local.setlocale(locale.LC_ALL)
     max_revenue = {"revenue": 0}
     sales = {"total_sales": 0}
     best_car = {}
